@@ -1,0 +1,12 @@
+# Contraseñas del sistema
+.env
+
+# Dependencias
+node_modules/
+
+# Archivos de registro
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
