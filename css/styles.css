@@ -11,11 +11,12 @@
   --verde: #39d353;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-padding-top: 100px; }
 body { font-family: system-ui, Arial, sans-serif; background: var(--fondo); color: var(--texto); line-height: 1.6; }
 a { color: var(--acento); }
-.hero { min-height: 60vh; padding: 1.5rem 8%; display: flex; flex-direction: column; }
-.nav { display: flex; justify-content: space-between; align-items: center; }
-.nav ul { display: flex; gap: 1.5rem; list-style: none; }
+.hero { min-height: 60vh; padding: 90px 8% 1.5rem; display: flex; flex-direction: column; }
+.nav { display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0; width: 100%; padding: 1rem 8%; background: var(--fondo); z-index: 1000; }
+.nav ul { display: flex; flex-direction: row; align-items: center; gap: 1.5rem; list-style: none; margin: 0; padding: 0; }
 .nav a { color: var(--texto); text-decoration: none; }
 .nav a:hover { color: var(--acento); }
 .logo { font-family: monospace; font-weight: bold; color: var(--verde); }
