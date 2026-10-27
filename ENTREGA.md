@@ -9,4 +9,4 @@ Completa los datos y haz commit de este archivo.
 - **Tablero (GitHub Projects):** - **Tablero (GitHub Projects):** https://github.com/users/cannalombia/projects/2
 
 
-- **Issue del bug (reto):** #77
+- **Issue del bug (reto):** #7
