@@ -1,15 +1,12 @@
-/* ==========================================================
-   Estilos del portafolio — ya vienen listos.
-   No necesitas modificarlos para la actividad.
-   ========================================================== */
 :root {
   --fondo: #0f1419;
   --tarjeta: #1a2129;
   --texto: #e6edf3;
   --suave: #9aa7b4;
-  --acento: #f05032; /* naranja Git */
+  --acento: #f05032;
   --verde: #39d353;
 }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-padding-top: 100px; }
 body { font-family: system-ui, Arial, sans-serif; background: var(--fondo); color: var(--texto); line-height: 1.6; }
@@ -20,6 +17,7 @@ a { color: var(--acento); }
 .nav a { color: var(--texto); text-decoration: none; }
 .nav a:hover { color: var(--acento); }
 .logo { font-family: monospace; font-weight: bold; color: var(--verde); }
+.logo_img { width: 180px; height: auto; display: block; object-fit: contain; }
 .hero-texto { margin: auto 0; }
 .saludo { color: var(--suave); }
 .hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); }
@@ -34,3 +32,14 @@ a { color: var(--acento); }
 .etiquetas li { font-size: .8rem; padding: .15rem .6rem; border-radius: 999px; background: rgba(240, 80, 50, .15); color: var(--acento); }
 .contacto { list-style: none; }
 .footer { text-align: center; padding: 2rem; color: var(--suave); font-size: .9rem; }
+
+/* Adaptacion para celulares */
+@media (max-width: 600px) {
+  .hero { padding: 130px 5% 1.5rem; }
+  .nav { flex-direction: column; gap: 0.5rem; padding: 0.75rem 5%; }
+  .nav ul { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1rem; }
+  .logo_img { width: 150px; }
+  .seccion { padding: 2rem 5%; }
+  .grid { grid-template-columns: 1fr; }
+  .tarjeta { width: 100%; min-width: 0; }
+}
