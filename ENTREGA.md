@@ -2,9 +2,11 @@
 
 Completa los datos y haz commit de este archivo.
 
-- **Nombre completo:** TODO
-- **Usuario de GitHub:** TODO
-- **Repositorio:** https://github.com/TODO/mi-portafolio
-- **Tablero (GitHub Projects):** TODO
-  <!-- Pega la URL del tablero. Se ve así: https://github.com/users/tu-usuario/projects/1 -->
-- **Issue del bug (reto):** #
+- **Nombre completo:** Andres Felipe Pinzon Del Valle
+- **Usuario de GitHub:** cannalombia
+- **Repositorio:** https://github.com/cannalombia/mi_portafolio
+- **Proyecto adicional — Sistema de Asistencia SENA:** https://github.com/cannalombia/SistemaDeAsistenciaADSO
+- **Tablero (GitHub Projects):** - **Tablero (GitHub Projects):** https://github.com/users/cannalombia/projects/2
+
+
+- **Issue del bug (reto):** #77
