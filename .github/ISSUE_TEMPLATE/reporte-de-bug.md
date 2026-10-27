@@ -1,4 +1,3 @@
-
 ---
 name: Reporte de bug
 about: Permite reportar errores encontrados en el portafolio

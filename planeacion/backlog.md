@@ -25,7 +25,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que estoy en la parte de arriba, cuando hago clic en "Proyectos", entonces la página baja hasta la sección de proyectos.
 - [ ] Dado que hice scroll hasta el final, cuando miro la parte superior de la pantalla, entonces el menú sigue visible.
 
-**Issue:** #
+**Issue:** #1
 
 ---
 
@@ -41,7 +41,7 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 - [ ] Dado que estoy en la sección "Habilidades", cuando la leo, entonces las habilidades están agrupadas en "Frontend" y "Herramientas".
 - [ ] Dado que estoy en el menú, cuando hago clic en "Habilidades", entonces la página baja hasta esa sección.
 
-**Issue:** #
+**Issue:** #2
 
 ---
 
@@ -53,10 +53,12 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces -->
-- [ ] TODO
+- [ ] Dado que ingreso al portafolio, cuando llego al final de la página, entonces puedo ver el pie de página.
+- [ ] Dado que estoy en el pie de página, cuando reviso su contenido, entonces puedo ver el año actual.
+- [ ] Dado que estoy en el pie de página, cuando hago clic en un enlace de una red social, entonces se abre la página correspondiente.
 
-**Issue:** #
+
+**Issue:** #3
 
 ---
 
@@ -67,12 +69,12 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 **Etiquetas:** historia, frontend · **Estimación:** S
 
 **Criterios de aceptación:**
+- [ ] Dado que ingreso al portafolio, cuando reviso la sección de proyectos, entonces veo un enlace a GitHub en cada tarjeta.
+- [ ] Dado que estoy viendo un proyecto, cuando hago clic en su enlace de GitHub, entonces el repositorio se abre en una pestaña nueva.
+- [ ] Dado que estoy en la sección de proyectos, cuando reviso los enlaces, entonces cada uno muestra el texto "Ver repositorio".
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿el enlace abre en una pestaña nueva? ¿Qué texto muestra? -->
-- [ ] TODO
 
-**Issue:** #
+**Issue:** #4
 
 ---
 
@@ -84,28 +86,24 @@ Cuando crees el issue en GitHub, escribe su número en la línea **Issue:**
 
 **Criterios de aceptación:**
 
-<!-- TODO: escribe mínimo 3 criterios con el formato Dado / cuando / entonces.
-     Pista: ¿qué pasa con las 3 tarjetas en una pantalla de menos de 600 px? -->
-- [ ] TODO
+- [ ] Dado que ingreso al portafolio desde un celular, cuando se carga la página, entonces puedo leer el contenido sin hacer zoom.
+- [ ] Dado que estoy usando una pantalla de menos de 600 px, cuando reviso la sección de proyectos, entonces las tres tarjetas se muestran una debajo de otra.
+- [ ] Dado que navego por el portafolio desde el celular, cuando me desplazo por las secciones, entonces no aparece desplazamiento horizontal.
 
-**Issue:** #
+**Issue:** #5
 
 ---
 
-## HU-06 · (RETO) Escribe tu propia historia
+## HU-06 · Descargar hoja de vida
 
-<!-- TODO (RETO): reemplaza el título y escribe tu propia historia de usuario.
-     Debe tener: Historia (Como / quiero / para), Etiquetas, Estimación,
-     mínimo 3 criterios Dado / cuando / entonces y el número de su issue.
-     Ideas: botón "volver arriba", modo oscuro, descargar hoja de vida,
-     formulario de contacto, foto de perfil, sección de estudios. -->
+**Historia:** Como reclutador, quiero poder descargar la hoja de vida del aprendiz desde su portafolio, para conocer mejor su perfil y formación.
 
-**Historia:** TODO
-
-**Etiquetas:** TODO · **Estimación:** TODO
+**Etiquetas:** historia, frontend · **Estimación:** S
 
 **Criterios de aceptación:**
 
-- [ ] TODO
+- [ ] Dado que ingreso al portafolio, cuando reviso la información del aprendiz, entonces puedo ver un botón para descargar su hoja de vida.
+- [ ] Dado que encuentro el botón de descarga, cuando hago clic en él, entonces se descarga la hoja de vida en formato PDF.
+- [ ] Dado que termina la descarga, cuando abro el archivo PDF, entonces puedo consultar la información del aprendiz correctamente.
 
-**Issue:** #
+**Issue:** #6
